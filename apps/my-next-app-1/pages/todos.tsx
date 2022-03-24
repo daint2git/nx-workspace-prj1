@@ -3,10 +3,7 @@ import { Todo } from '@nx-workspace-prj1/data';
 import { Todos } from '@nx-workspace-prj1/ui';
 
 export default function TodosPage() {
-  const [todos, setTodos] = useState<Todo[]>([
-    { title: 'Todo 1' },
-    { title: 'Todo 2' },
-  ]);
+  const [todos, setTodos] = useState<Todo[]>([]);
 
   useEffect(() => {
     fetch('/api/todos')

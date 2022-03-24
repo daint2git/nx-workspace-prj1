@@ -1,6 +1,4 @@
-
-
-# MyP1Org
+# NX WORKSPACE PRJ1
 
 This project was generated using [Nx](https://nx.dev).
 

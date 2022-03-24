@@ -36,3 +36,13 @@ npx nx run-many --target=build --projects=my-next-app-1,api
 ```
 
 ## Test Affected Projects
+
+```bash
+npx nx affected:apps
+
+npx nx affected:libs
+
+# The following are equivalent
+npx nx affected --target=build
+npx nx affected:build
+```
