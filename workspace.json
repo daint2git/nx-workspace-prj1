@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "data": "libs/data",
+    "my-next-app-1": "apps/my-next-app-1",
+    "my-next-app-1-e2e": "apps/my-next-app-1-e2e",
+    "ui": "libs/ui"
+  }
+}
