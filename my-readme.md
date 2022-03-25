@@ -1,6 +1,6 @@
 # my readme
 
-## api
+## apps/api commands
 
 ```bash
 npx nx serve api
@@ -10,7 +10,7 @@ npx nx build api
 npx nx test api
 ```
 
-## my-next-app-1
+## apps/my-next-app-1 commands
 
 ```bash
 npx nx serve my-next-app-1
@@ -23,13 +23,13 @@ npx nx test my-next-app-1
 npx nx serve my-next-app-1 --help
 ```
 
-## graph
+## Open Graph
 
 ```bash
 npx nx graph
 ```
 
-## run multiple projects
+## Run multiple projects
 
 ```bash
 npx nx run-many --target=build --projects=my-next-app-1,api
