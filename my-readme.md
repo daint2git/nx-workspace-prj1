@@ -46,3 +46,9 @@ npx nx affected:libs
 npx nx affected --target=build
 npx nx affected:build
 ```
+
+## Clear the cache
+
+```bash
+npx nx reset
+```
